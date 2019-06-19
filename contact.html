@@ -11,11 +11,13 @@
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.2.0/css/all.css"/>
     <link rel="stylesheet" href="styles/common.css">
     <link rel="stylesheet" href="styles/nav.css">
-    <link rel="stylesheet" href="styles/homepage.css">
     <link rel="stylesheet" href="styles/footer.css">
     <link rel="stylesheet" href="styles/skewed-header.css">
     <link rel="stylesheet" href="styles/page-container.css">
     <link rel="stylesheet" href="styles/helpers.css">
+    <link rel="stylesheet" href="styles/contact.css">
+    <link rel="stylesheet" href="styles/form.css">
+    <link rel="stylesheet" href="styles/but.css">
 
 </head>
 <body>
@@ -81,17 +83,20 @@
 
            <div class="form">
                <div class="form-group">
-                    Name
+                    <input type="text" id="fullName" placeholder="Your name">
+                    <label for="fullName">Your name</label>
                </div>
                <div class="form-group">
-                    Email
+                <input type="email" id="email" placeholder="Your email">
+                <label for="email">Your email</label>
                </div>
                <div class="form-group">
-                    Message
+                   <textarea name="message" id="message" placeholder="message"></textarea>
+                <label for="message">message</label>
                </div>
 
                <div class="centered-btn-wrapper">
-                   <button type="submit">Send</button>
+                   <button type="submit" class="btn">Send</button>
                </div>
            </div>
        </div>
